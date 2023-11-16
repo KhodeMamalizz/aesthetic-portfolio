@@ -20,7 +20,7 @@
                 </span>
             </a>
 
-            <div class="w-[400px] h-full flex items-center justify-between md:mr-20">
+            <div class="w-[500px] h-full flex items-center justify-between mx-auto">
                 <div class="w-full h-auto flex items-center justify-between border border-[#7042f861] bg-[#0300145e] mr-[1rem] px-[1.2rem] py-[10px] rounded-full text-gray-200">
                     <a href="#about-me" class="cursor-pointer">About me</a>
                     <a href="#skills" class="cursor-pointer">Skills</a>

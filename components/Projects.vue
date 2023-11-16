@@ -15,7 +15,7 @@ import type { ProjectCard } from '#build/components';
 </script>
 
 <template>
-    <section id="projects" class="flex flex-col justify-center items-center py-20">
+    <section id="projects" class="flex flex-col justify-center items-center md:py-20 mt-28 z-[10]">
         <h1 class="text-[30px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
             My projects
         </h1>

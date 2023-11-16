@@ -7,7 +7,9 @@
         <div class="flex flex-col gap-20">
             <Hero />
             <Skills />
-            <Encryption />
+            <ClientOnly>
+                <Encryption />
+            </ClientOnly>
             <Projects />
         </div>
     </main>

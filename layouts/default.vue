@@ -3,5 +3,8 @@
         <Navbar />
         <StarBackground />
         <slot />
+        <ClientOnly>
+            <Footer />
+        </ClientOnly>
     </div>
 </template>

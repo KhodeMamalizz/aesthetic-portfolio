@@ -7,6 +7,7 @@
 
 <template>
     <div 
+        id="about-me"
         v-motion-fade
         class="flex flex-col gap-20 md:gap-0 md:flex-row justify-center items-center px-10 md:px-20 mt-40 w-full z-[20]"
     >

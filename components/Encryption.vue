@@ -3,8 +3,8 @@
 </script>
 
 <template>
-    <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full">
-        <div className="absolute w-auto h-auto top-0 z-[5]">
+    <section className="flex flex-row relative items-center justify-center w-full pt-80 min-h-max scale-90">
+        <div className="absolute w-auto h-auto top-0 z-[5] mb-40">
             <div
                 v-motion="slideInFromTop"
                 className="text-[40px] font-medium text-center text-gray-200"
@@ -34,13 +34,9 @@
                     className=" z-10"
                 />
             </div>
-
-            <div className="Welcome-box px-[15px] py-[4px] z-[20] brder my-[20px] border-[#7042f88b] opacity-[0.9]">
-                <h1 className="Welcome-text text-[12px]">Encryption</h1>
-            </div>
         </div>
 
-        <div className="w-full flex items-start justify-center absolute">
+        <div className="w-full h-full z-[-10] opacity-30 absolute flex justify-center items-center bg-cover">
             <video
                 loop
                 muted
@@ -51,7 +47,7 @@
                 src="/encryption.webm"
             />
         </div>
-    </div>
+    </section>
 </template>
 
 <style lang="scss" scoped>
