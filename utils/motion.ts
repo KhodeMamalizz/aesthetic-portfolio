@@ -1,12 +1,12 @@
 export const slideInFromLeft = (delay: number) => {
     return {
-        hidden: { x: -100, opacity: 0 },
-        visible: {
+        initial: { x: -100, opacity: 0 },
+        enter: {
             x: 0,
             opacity: 1,
             transition: {
                 delay: delay,
-                duration: 0.5,
+                duration: 500,
             },
         },
     };
@@ -14,26 +14,26 @@ export const slideInFromLeft = (delay: number) => {
 
 export const slideInFromRight = (delay: number) => {
     return {
-        hidden: { x: 100, opacity: 0 },
-        visible: {
+        initial: { x: 100, opacity: 0 },
+        enter: {
             x: 0,
             opacity: 1,
             transition: {
                 delay: delay,
-                duration: 0.5,
+                duration: 500,
             },
         },
     };
 }
 
 export const slideInFromTop = {
-    hidden: { y: -100, opacity: 0 },
-    visible: {
+    initial: { y: -100, opacity: 0 },
+    enter: {
         y: 0,
         opacity: 1,
         transition: {
-            delay: 0.5,
-            duration: 0.5,
+            delay: 500,
+            duration: 500,
         },
     },
 };

@@ -21,6 +21,11 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "@vueuse/motion": "^2.0.0"
+    "@heroicons/vue": "^2.0.18",
+    "@nuxt/image": "^1.0.0",
+    "@react-three/drei": "^9.88.15",
+    "@react-three/fiber": "^8.15.11",
+    "@vueuse/motion": "^2.0.0",
+    "maath": "^0.10.4"
   }
 }

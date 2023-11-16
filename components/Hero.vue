@@ -12,7 +12,9 @@
         >
             <source src="/blackhole.webm" type="video/webm">
         </video>
+        <HeroContent />
     </div>
+
 </template>
 
 
