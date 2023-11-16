@@ -1,9 +1,7 @@
-<script setup lang="ts">
-    
-</script>
-
 <template>
     <div>
-
+        <Navbar />
+        <StarBackground />
+        <slot />
     </div>
 </template>

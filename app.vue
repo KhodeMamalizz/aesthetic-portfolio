@@ -1,5 +1,6 @@
 
 <template>
-  <StarBackground />
-  <NuxtPage />
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
