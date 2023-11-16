@@ -16,13 +16,13 @@
         </div>
         <div 
             v-motion="slideInFromLeft(500)"
-            class="text-[30px] text-white font-medium mt-10 text-center mb-[1rem]"
+            class="text-[30px] text-white font-medium my-10 text-center"
         >
             Making Websites, Web apps, Mobile apps
         </div>
         <div 
             v-motion="slideInFromRight(500)"
-            class="cursive text-[20px] text-gray-200 my-10 text-center"
+            class="cursive text-[20px] text-gray-200 mb-10 text-center"
         >
             Also know how to center a div LOL
         </div>

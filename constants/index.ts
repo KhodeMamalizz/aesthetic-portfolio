@@ -95,8 +95,6 @@ export const socials = [
     },
 ];
 
-
-
 export const frontendSkills = [
     {
         skill_name: "Html 5",
@@ -240,8 +238,6 @@ export const fullstackSkills = [
 
 ];
 
-
-
 export const otherSkills = [
     {
         skill_name: "Go",
@@ -251,6 +247,20 @@ export const otherSkills = [
     },
 ];
 
-
-
-
+export const projects = [
+    {
+        image: "/NextWebsite.png",
+        title: 'Modern Nuxt 3 Portfolio',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+    },
+    {
+        image: "/CardImage.png",
+        title: 'Interactive Website Cards',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+    },
+    {
+        image: "/SpaceWebsite.png",
+        title: 'Space Themed Website',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+    },
+]

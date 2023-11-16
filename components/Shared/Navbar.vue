@@ -36,7 +36,6 @@
                     :class="social.class"
                 />
             </div>
-
         </div>
     </div>
 </template>

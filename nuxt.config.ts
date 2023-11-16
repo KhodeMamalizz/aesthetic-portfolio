@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     ['@nuxtjs/google-fonts', {
         families: {
           Inter: true,
-          Cursive: true
+          CedarvilleCursive: true
         },
         display: 'swap'
     }],

@@ -24,7 +24,7 @@ import type { Skills } from '#build/components';
 <template>
     <section 
         id="skills"
-        class="flex flex-col items-center justify-center gap-3 h-full overflow-hidden py-20"
+        class="flex flex-col items-center justify-center gap-3 h-full overflow-hidden lg:pb-20 pt-20 scale-90"
     >
         <SkillText />
         <div class="flex justify-around flex-wrap mt-4 gap-5 items-center">

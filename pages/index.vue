@@ -7,6 +7,8 @@
         <div class="flex flex-col gap-20">
             <Hero />
             <Skills />
+            <Encryption />
+            <Projects />
         </div>
     </main>
 </template>
