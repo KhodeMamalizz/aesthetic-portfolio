@@ -3,14 +3,14 @@
 </script>
 
 <template>
-    <main class="w-full h-full">
-        <div class="flex flex-col gap-20">
+    <main class="w-full h-full overflow-x-hidden">
+        <div class="flex flex-col gap-16">
             <Hero />
             <Skills />
             <ClientOnly>
                 <Encryption />
+                <Projects />
             </ClientOnly>
-            <Projects />
         </div>
     </main>
 </template>

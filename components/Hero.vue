@@ -3,12 +3,12 @@
 </script>
 
 <template>
-    <div class="w-full h-full flex flex-col relative">
+    <div class="relative flex flex-col w-full h-full">
         <video 
             autoplay 
             muted 
             loop 
-            class="rotate-180 absolute top-[-21.25rem] left-0 w-full h-full z-[-1] object-cover"
+            class="rotate-180 absolute top-[-340px] opacity-30 md:opacity-100 left-0 w-full h-full z-[-1] object-cover"
         >
             <source src="/blackhole.webm" type="video/webm">
         </video>

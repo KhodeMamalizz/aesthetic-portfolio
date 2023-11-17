@@ -43,7 +43,7 @@
                 autoPlay
                 playsInline
                 preload="false"
-                className="w-full h-auto"
+                className="w-full h-auto scale-[500%] md:scale-100"
                 src="/encryption.webm"
             />
         </div>

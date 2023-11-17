@@ -9,9 +9,9 @@
     <div 
         id="about-me"
         v-motion-fade
-        class="flex flex-col gap-20 md:gap-0 md:flex-row justify-center items-center px-10 md:px-20 mt-40 w-full z-[20]"
+        class="flex flex-col gap-20 md:gap-0 md:flex-row justify-center items-center px-10 md:px-20 mt-28 md:mt-40 w-full z-[20]"
     >
-        <div class="w-full h-full flex flex-col gap-5 justify-center m-auto text-start">
+        <div class="flex flex-col justify-center w-full h-full gap-5 m-auto text-start">
             <div 
                 v-motion-slide-top
                 class="Welcome-box py-[1rem] px-[1.4rem] border border-[#7042f88b] opacity-[.9]"
@@ -51,7 +51,7 @@
         </div>
         <div
             v-motion="slideInFromRight(800)"
-            class="w-full h-full flex justify-center items-center"
+            class="flex items-center justify-center w-full h-full"
         >
             <NuxtImg 
                 src="/hero-icons.svg"

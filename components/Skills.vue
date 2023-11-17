@@ -5,8 +5,7 @@ import type { Skills } from '#build/components';
     const {$gsap: gsap} = useNuxtApp()
 
     onMounted(() => {
-        gsap
-            .from(
+        gsap.from(
                 '.skills',
                 {
                     opacity: 0,
@@ -24,10 +23,10 @@ import type { Skills } from '#build/components';
 <template>
     <section 
         id="skills"
-        class="flex flex-col items-center justify-center gap-3 h-full overflow-hidden lg:pb-20 pt-20 scale-90"
+        class="flex flex-col items-center justify-center h-full gap-3 pt-20 overflow-hidden scale-90 lg:pb-20"
     >
         <SkillText />
-        <div class="flex justify-around flex-wrap mt-4 gap-5 items-center">
+        <div class="flex flex-wrap items-center justify-center gap-6 mt-4 scale-90 md:scale-100">
             <img 
                 class="skills"
                 v-for="(skill, index) in frontendSkills" 
@@ -37,7 +36,7 @@ import type { Skills } from '#build/components';
                 :src="skill.src" 
                 :alt="skill.skill_name">
         </div>
-        <div class="flex justify-around flex-wrap mt-4 gap-5 items-center">
+        <div class="flex flex-wrap items-center justify-center gap-6 mt-4 scale-90 md:scale-100">
             <img 
                 class="skills"
                 v-for="(skill, index) in backendSkills" 
@@ -47,7 +46,7 @@ import type { Skills } from '#build/components';
                 :src="skill.src" 
                 :alt="skill.skill_name">
         </div>
-        <div class="flex justify-around flex-wrap mt-4 gap-5 items-center">
+        <div class="flex flex-wrap items-center justify-center gap-6 mt-4 scale-90 md:scale-100">
             <img 
                 class="skills"
                 v-for="(skill, index) in fullstackSkills" 
@@ -57,7 +56,7 @@ import type { Skills } from '#build/components';
                 :src="skill.src" 
                 :alt="skill.skill_name">
         </div>
-        <div class="flex justify-around flex-wrap mt-4 gap-5 items-center">
+        <div class="flex flex-wrap items-center justify-around gap-5 mt-4 scale-90 md:scale-100">
             <img 
                 class="skills"
                 v-for="(skill, index) in otherSkills" 
@@ -68,7 +67,7 @@ import type { Skills } from '#build/components';
                 :alt="skill.skill_name">
         </div>
 
-        <div class="w-full h-full absolute">
+        <div class="absolute w-full h-full">
             <div class="w-full h-full z-[-10] opacity-30 absolute flex justify-center items-center bg-cover">
                 <video 
                     class="w-full h-auto"

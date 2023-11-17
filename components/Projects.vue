@@ -1,16 +1,31 @@
 
-import type { ProjectCard } from '#build/components';
 <script setup lang="ts">
 
     import { projects } from '@constants' 
 
     interface Props {
-        src: String
-        title: String
-        description: String
+        src?: String
+        title?: String
+        description?: String
     }
 
     const props = defineProps<Props>()
+
+    const { $gsap: gsap } = useNuxtApp()
+    onMounted(() => {
+        gsap.from(
+                '.project',
+                { 
+                    opacity: 0,
+                    stagger: 0.1, 
+                    scrollTrigger: {
+                        trigger: '#projects',
+                        start: 'top bottom',
+                        scrub: true,
+                    } 
+                }
+            )
+    })
 
 </script>
 
@@ -19,13 +34,14 @@ import type { ProjectCard } from '#build/components';
         <h1 class="text-[30px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
             My projects
         </h1>
-        <div class="w-full h-full flex flex-col md:flex-row gap-10 px-10">
+        <div class="flex flex-col w-full h-full gap-10 px-10 md:flex-row">
             <ProjectCard 
                 v-for="(project, index) in projects"
                 :key="index"
                 :title="project.title"
                 :image="project.image"
                 :description="project.description"
+                class="project"
             />
         </div>
     </section>
