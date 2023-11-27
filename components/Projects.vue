@@ -13,24 +13,30 @@
 
     const { $gsap: gsap } = useNuxtApp()
     onMounted(() => {
-        gsap.from(
-                '.project',
-                { 
-                    opacity: 0,
-                    stagger: 0.1, 
-                    scrollTrigger: {
-                        trigger: '#projects',
-                        start: 'top bottom',
-                        scrub: true,
-                    } 
-                }
-            )
+
+        const projectCards = gsap.utils.toArray('.project-card')
+        projectCards.forEach((project: any) => {
+            gsap.from(
+                    project,
+                    {
+                        opacity: 0,
+                        ease: 'none',
+                        scrollTrigger: {
+                            trigger: project,
+                            start: 'top bottom',
+                            end: 'center center',
+                            scrub: true,
+                        } 
+                    }
+                )
+        })
+        
     })
 
 </script>
 
 <template>
-    <section id="projects" class="flex flex-col justify-center items-center md:py-20 mt-28 z-[10]">
+    <section id="projects" class="flex flex-col justify-center items-center md:py-20 mt-28 z-[10] overflow-y-hidden">
         <h1 class="text-[30px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
             My projects
         </h1>
@@ -41,7 +47,7 @@
                 :title="project.title"
                 :image="project.image"
                 :description="project.description"
-                class="project"
+                class="project-card"
             />
         </div>
     </section>

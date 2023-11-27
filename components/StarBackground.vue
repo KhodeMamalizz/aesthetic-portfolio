@@ -5,10 +5,6 @@ const particlesInit = async (engine) => {
   //await loadFull(engine);
   await loadSlim(engine);
 };
-
-const particlesLoaded = async (container) => {
-  console.log("Particles container loaded", container);
-};
 </script>
 
 <template>
