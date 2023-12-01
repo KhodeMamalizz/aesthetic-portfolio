@@ -5,7 +5,6 @@ html {
 
 body {
     font-family: 'Inter';
-    background-color: '#3001433';
     @apply bg-[#030014] overflow-x-hidden overflow-y-scroll
 }
 

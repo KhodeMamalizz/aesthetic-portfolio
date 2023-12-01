@@ -249,17 +249,17 @@ export const otherSkills = [
 
 export const projects = [
     {
-        image: "/NextWebsite.png",
+        image: "/banner.jpg",
         title: 'Modern Nuxt 3 Portfolio',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
     {
-        image: "/CardImage.png",
+        image: "/banner.jpg",
         title: 'Interactive Website Cards',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
     {
-        image: "/SpaceWebsite.png",
+        image: "/banner.jpg",
         title: 'Space Themed Website',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
