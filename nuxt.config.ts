@@ -10,8 +10,9 @@ export default defineNuxtConfig({
   modules: [
     ['@nuxtjs/google-fonts', {
         families: {
-          Inter: true,
-          CedarvilleCursive: true
+          'Chakra Petch': true,
+          download: true,
+          inject: true
         },
         display: 'swap'
     }],

@@ -24,7 +24,6 @@
                         scrollTrigger: {
                             trigger: project,
                             start: 'top bottom',
-                            end: 'center center',
                             scrub: true,
                         } 
                     }

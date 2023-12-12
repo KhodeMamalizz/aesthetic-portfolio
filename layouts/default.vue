@@ -1,7 +1,8 @@
 <template>
-    <div>
+    <div class="container">
         <Navbar />
         <StarBackground />
+        <!-- <Aesthete /> -->
         <slot />
         <ClientOnly>
             <Footer />

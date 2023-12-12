@@ -11,7 +11,7 @@ const props = defineProps<Props>()
 </script>
 
 <template>
-    <div class="relative overflow-hidden shadow-lg rounded-lg border border-[#2A0E61] cursor-pointer hover:scale-105 transition-all">
+    <div class="relative overflow-hidden shadow-lg rounded-lg border border-[#2A0E61] cursor-pointer hover:scale-105">
         <NuxtImg 
             :src="image"
             alt="project banner"

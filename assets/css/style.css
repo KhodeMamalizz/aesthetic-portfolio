@@ -4,12 +4,12 @@ html {
 }
 
 body {
-    font-family: 'Inter';
-    @apply bg-[#030014] overflow-x-hidden overflow-y-scroll
+    font-family: 'Chakra Petch';
+    @apply bg-[#040015] overflow-x-hidden overflow-y-scroll
 }
 
 .cursive {
-  font-family: "CedarvilleCursive";
+  font-family: "Cedarville Cursive";
 }
 .Welcome-text {
   background: linear-gradient(

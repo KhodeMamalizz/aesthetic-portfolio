@@ -5,9 +5,9 @@
 </script>
 
 <template>
-    <div class="w-full h-[4.063rem] fixed top-0 shadow-lg shadow-[#2A0E61]/50 backdrop-blur-md z-50 px-5 md:px-10">
+    <div class="w-full h-[4.063rem] fixed top-0 shadow-lg shadow-[#2A0E61]/50 backdrop-blur-md z-50 px-5 md:px-10 container">
         <div class="w-full h-full flex items-center justify-between gap-5 md:gap-0 m-auto md:px-[10px]">
-            <a href="#about-me" class="w-auto flex gap-2 h-auto items-center font-thin tracking-widest text-white">
+            <a href="#about-me" class="flex items-center w-auto h-auto gap-2 font-thin tracking-widest text-white">
                 <NuxtImg 
                     src="/logo.png"
                     alt="logo"
@@ -15,7 +15,7 @@
                     :height="60"
                     class="cursor-pointer hover:animate-spin"
                 />
-                <span class="font-bold hidden md:inline-block text-gray-300">
+                <span class="hidden font-bold text-gray-300 md:inline-block">
                     Mamalizz
                 </span>
             </a>
@@ -28,7 +28,7 @@
                 </div>
             </div>
 
-            <div class="hidden md:flex gap-5 items-center">
+            <div class="items-center hidden gap-5 md:flex">
                 <i 
                     v-for="(social, index) in socials" 
                     :key="index" 
